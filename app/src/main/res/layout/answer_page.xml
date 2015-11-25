@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#312783"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/Layout_top">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_questionPicture"
+                android:src="@drawable/mbs"
+                android:scaleType="centerCrop" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/Layout_bottom">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to Marina Bay Sands"
+                    android:id="@+id/textView_location"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/thin_breakline"
+                    android:layout_gravity="top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marina Bay Sands was completed in 2003 and sits in front of marina bay"
+                    android:id="@+id/textView_funFact"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:autoText="false"
+                    android:textIsSelectable="false"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView9"
+                    android:src="@drawable/thin_breakline"
+                    android:layout_gravity="bottom" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:text="Go to MBS to get your next location"
+                    android:id="@+id/textView_instruction"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:autoText="false"
+                    android:textIsSelectable="false"
+                    android:textAlignment="center" />
+
+                <ImageButton
+                    android:layout_width="75dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/nextqBtn"
+                    android:src="@drawable/next"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:baselineAlignBottom="false"
+                    android:focusable="false"
+                    android:scaleType="centerCrop"
+                    android:background="#83d0f5"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="15dp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:rowCount="47"
+    android:columnCount="18">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:background="#312783">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/app_name"
+                    android:id="@+id/textView_name"
+                    android:layout_gravity="top|center_horizontal"
+                    android:textColor="#ffffff"
+                    android:textSize="50dp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="40dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="166dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/newgame"
+                        android:id="@+id/newGame_button"
+                        android:background="#83d0f5"
+                        android:scaleType="centerInside" />
+
+                    <ImageButton
+                        android:layout_width="166dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="bottom|center"
+                        android:src="@drawable/continuebutton"
+                        android:id="@+id/imageButton2"
+                        android:background="#83d0f5"
+                        android:scaleType="centerInside"
+                        android:visibility="gone" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="51dp"
+                        android:layout_height="52dp"
+                        android:id="@+id/imageButton_info"
+                        android:layout_gravity="right|bottom"
+                        android:src="@drawable/info100"
+                        android:background="#312783"
+                        android:scaleType="centerCrop" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</GridLayout>

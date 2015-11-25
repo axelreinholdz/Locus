@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/pre-dexed/release/internal_impl-22.2.1-d118913e6cceed880def5a682b467b27246a3c33.jar" />
+    </item>
+    <item
+        jar="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/pre-dexed/release/classes-432dd168d37928bfe11395265d62af8c34cd5730.jar" />
+    </item>
+    <item
+        jar="/Users/axelreinholdz/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/pre-dexed/release/support-annotations-22.2.1-4a14d31e5b661c1260f44684baa62497d0dd9752.jar" />
+    </item>
+    <item
+        jar="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/pre-dexed/release/classes-f047d41d02024b99204e0a7758b32f76a69cf7f3.jar" />
+    </item>
+    <item
+        jar="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/pre-dexed/release/classes-34befbbd98aceb7c979794cc03fcd30babd7b23b.jar" />
+    </item>
+    <item
+        jar="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/pre-dexed/release/classes-774e49137fa894861e61f13a977d74c02bea030d.jar" />
+    </item>
+    <item
+        jar="/Users/axelreinholdz/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5.1/eecbb0b998e77629862a13d957d552b3be58fc4e/httpclient-android-4.3.5.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="/Users/axelreinholdz/AndroidStudioProjects/FrontAndBackEndmaster-master/app/build/intermediates/pre-dexed/release/httpclient-android-4.3.5.1-cc33e984ad776d9c1b8f9339fe86b5e9a545b3c9.jar" />
+    </item>
+
+</items>

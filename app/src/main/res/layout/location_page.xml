@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#312783"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/Layout_top">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_picture"
+                android:scaleType="centerCrop" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/Layout_bottom">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="151dp"
+                    android:layout_height="42dp"
+                    android:id="@+id/imageButton_takePicture"
+                    android:src="@drawable/takepicturebutton"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:baselineAlignBottom="false"
+                    android:focusable="false"
+                    android:scaleType="centerCrop"
+                    android:background="#83d0f5"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/thin_breakline"
+                    android:layout_gravity="top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take a picture when you are at the location!"
+                    android:id="@+id/textView_takePicture"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:autoText="false"
+                    android:textIsSelectable="false"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/thin_breakline"
+                    android:layout_gravity="bottom" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="75dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageButton_sendLocation"
+                    android:src="@drawable/send"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:baselineAlignBottom="false"
+                    android:focusable="false"
+                    android:scaleType="centerCrop"
+                    android:background="#83d0f5"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="15dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:text="Send us your location"
+                    android:id="@+id/textView_instruction"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:autoText="false"
+                    android:textIsSelectable="false"
+                    android:textAlignment="center" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
